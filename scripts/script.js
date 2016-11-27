@@ -7,6 +7,17 @@ if ($(this).scrollTop() > 1){
   }
 });
 
+$(function(){
+    $(window).scroll(function() {
+        if ($(this).scrollTop() >= 1) {
+            $('navigation').addClass('sticky-top');
+        }
+        else {
+            $('navigation').removeClass('sticky-top');
+        }
+    });
+});
+
 $( document ).ready( function() {
 
 
@@ -23,7 +34,7 @@ $( document ).ready( function() {
 
 		var map = new google.maps.Map(document.getElementById('map'), mapOptions);
 		//Callout Content
-		var contentString = '';
+		var contentString = "821 Luke Street Irving, TX, 75061";
 		//Set window width + content
 		var infowindow = new google.maps.InfoWindow({
 			content: contentString,
@@ -35,7 +46,7 @@ $( document ).ready( function() {
 			position: myLatlng,
 			map: map,
 			icon: imagePath,
-			title: ''
+			title: contentString
 		});
 
 		google.maps.event.addListener(marker, 'click', function() {

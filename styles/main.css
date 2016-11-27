@@ -12,6 +12,7 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
 body {
   overflow-x: hidden;
 }
+
 #about-us{
   top:-50px;
   position:absolute;
@@ -288,7 +289,14 @@ transition: 1000ms;
      box-shadow: 0 1px 0 #ccc inset;
      outline: 0;
 }
-
+.navigation.sticky-top {
+    background-color: rgba(220,220, 220, 0.9);
+    width:100%;
+    height:50px;
+    position: fixed;
+    top: 0;
+    z-index:100;
+  }
 /*responsive*/
 @media (max-width:930px) {
   .desktop-only {
