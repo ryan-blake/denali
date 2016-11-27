@@ -1,0 +1,406 @@
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td {
+  border: 0;
+  font: inherit;
+  font-size: 100%;
+  font-style: inherit;
+  font-weight: inherit;
+  margin: 0;
+  outline: 0;
+  padding: 0;
+  vertical-align: baseline;
+}
+body {
+  overflow-x: hidden;
+}
+#about-us{
+  top:-50px;
+  position:absolute;
+}
+.clearfix {
+  display: block;
+}
+#div-wrapper {
+   white-space: nowrap;
+   max-width: 100%;
+
+ }
+.bcg {
+  background: no-repeat center center;
+  background-size: cover;
+  position: relative;
+  width: 100%;
+  display: inline-block;
+}
+.object-fit_fill {
+  object-fit: cover;
+}
+#header img {
+  max-width: 100%;
+  overflow-x: hidden;
+  max-height:700px;
+  min-width:100%;
+}
+.image {
+  float: left;
+  max-width: 100%;
+  max-height:500px;
+}
+
+.main-heading {
+  position:absolute;
+  top: 21%;
+  left: calc(25% - 80px);
+  color: black;
+  font-family: arial;
+  font-size:50px;
+  text-shadow: 2px 2px 4px white;
+  font-size: 5.2vw;
+}
+.heading-text {
+  position:absolute;
+  top: 31%;
+  right: calc(35% - 100px);
+  color: white;
+  font-family: arial;
+  font-size:40px;
+  text-shadow: 2px 2px 4px black;
+  font-size: 3.7vw;
+}
+.navigation{
+  background-color: rgba(120,124, 105, 0.3);
+  width:100%;
+  height:50px;
+  position: fixed;
+  top: 0;
+  z-index:100;
+}
+.navigation
+li.pull-right h4{
+  padding-right: 8px;
+  color: white;
+  text-decoration: none;
+  font-family:arial;
+}
+li.pull-right h4:hover{
+  color: gray;
+}
+
+.logo {
+;position:absolute;top:4px;left:8px;width:93px; height: auto;
+}
+
+#idea .bcg{
+  display:block;
+  width:100%;
+  position:relative;
+  background-color: #eafbf9;
+  top:0px;
+  height:260px;
+}
+
+
+.about-us-1 {
+  text-align:center;
+  width:80%;
+  color:black;
+  font-size:15px;
+  margin-left:10%;
+  white-space: normal;
+}
+.desktop-only {
+  font-size:20px;
+  font-size:1.6vw;
+
+}
+#about .bcg {
+  display:block;
+  width:100%;
+  position:relative;
+  background: url("../imgs/denali_sparkler.jpg") center;
+  background-color: #ccc;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height:300px;
+}
+.cornerimage {
+  position: absolute;
+  top: 0;
+  transform: rotateY(180deg);
+  right: 0;
+  width:102%;
+  min-height:102%;
+}
+
+#map-div .bcg{
+  display:block;
+  width:100%;
+  position:relative;
+  background-color: #eafbf9;
+  top:0px;
+  height:270px;
+}
+.container{
+  width: 100%;
+  margin: 0 auto;
+  margin-top:50px;
+}
+
+#map_container{
+  position: relative;
+}
+#map{
+    min-height: 200px;
+    color: black;
+    top: -1px;
+}
+
+#work .bcg{
+  display:block;
+  width:100%;
+  position:relative;
+  background-color: #eafbf9;
+  top:0px;
+  height:280px;
+}
+.work-box span {
+  position:absolute;
+  left: calc(50% - 75px);
+  top: 20px;
+}
+.work-box{
+  border-bottom: 1px solid black;
+  border-top: 1px solid black;
+  height:280px;
+ }
+ .work-text {
+   position:relative;
+   top:149px;
+   left: calc(50% - 75px);
+   width: 250px;
+   overflow: none;
+   white-space: initial;
+   font-weight:bolder;
+   text-align:center;
+ }
+ .square-icons {
+   background: url(../imgs/denali_work.png);
+   max-width: 200px;
+   height: 152px;
+   border: none;
+   outline: none;
+   margin: 1px;
+   z-index: 103;
+ }
+
+ #first {
+   background-position: 0px 0px;
+   z-index:2;
+ }
+ #second {
+   background-position: 0px -152px;
+   height:125px;
+   z-index:2;
+
+ }
+ #third {
+   background-position: 0px -275px;
+   height:140px;
+   z-index:2;
+
+ }
+ #fourth {
+   background-position: 0px -400px;
+   height:120px;
+   z-index:2;
+ }
+
+.contact-button {
+  padding: 2px 15px;
+  border: 1px solid white;
+  position: absolute;
+  right:20px;
+  top: 190px;
+  color: white;
+  font-weight: thin;
+  font-family: arial;
+  cursor: pointer;
+}
+
+#contact .bcg {
+  display:block;
+  width:100%;
+  position:relative;
+  background-color: #ccc;
+  height:350px;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+}
+.about-us{
+  position:absolute;
+  top:39px;
+  width: 360px;
+  overflow: none;
+  white-space: initial;
+  font-weight:normal;
+  line-height: .95em;
+  text-align:left;
+  font-weight:lighter;
+  color:white;
+  right:30px;
+}
+.email-box  {
+  float:left;background: #333;
+  color: #ccc;
+  width: 330px;
+  height:120px;
+  padding: 6px 15px 6px 35px;
+  border-radius: 1%;
+  box-shadow: 0 1px 0 #ccc inset;
+  transition: 500ms all ease;
+  outline: 0;
+}
+.email-btn {
+/*position: absolute;*/
+background: #222;
+color: #ccc;
+width: 110px;
+padding: 6px 9px 6px 11px;
+border-radius: 20px;
+box-shadow: 0 1px 0 #ccc inset;
+text-align-last: left;
+transition: 1000ms;
+}
+.email-btn:hover {
+  background: #ccc;
+}
+.email-input {
+  background: #333;
+     color: #ccc;
+     width: 165px;
+     padding: 6px 15px 6px 35px;
+     border-radius: 20px;
+     box-shadow: 0 1px 0 #ccc inset;
+     outline: 0;
+}
+
+/*responsive*/
+@media (max-width:930px) {
+  .desktop-only {
+    visibility: hidden;
+  }
+  .mobile-only {
+    visibility:visible !important;
+    min-width:180px;
+  }
+}
+@media (min-width:767px) and (max-width:1042px) {
+   .work-text {
+    width:160px ;
+    left: 0px;
+    text-align:center;
+   }
+   .square-icons {
+     background: url(../imgs/denali_work.png);
+     background-size:100%;
+     max-width: 160px;
+     height: 110px;
+     border: none;
+     outline: none;
+     margin: 1px;
+   }
+   #first {
+     background-position: 0px 0px;
+     width:130px;
+     height:100px;
+   }
+   #second {
+     background-position: 0px -122px;
+     height:100px;
+     width: 180px;
+   }
+   #third {
+     background-position: 0px -218px;
+     height:103px;
+   }
+   #fourth {
+     background-position: 0px -320px;
+     height:90px;
+   }
+ }
+ @media (max-width:569px) {
+   .about-us {
+     left(calc:50% - 400px);
+   }
+  .work-text{
+   max-width: 150px;
+   text-align: center;
+   left: calc(50% - 80px) !important;
+   margin-left:5px;
+   margin-right:3px;
+   }
+  .work-box span {
+    position:absolute;
+    left: calc(50% - 80px);
+    top: 10px;
+    width:200px;
+  }
+  .square-icons {
+    background: url(../imgs/denali_work.png);
+    background-size:100%;
+    max-width: 160px;
+    height: 110px;
+    border: none;
+    outline: none;
+    margin: 1px;
+    z-index: 103;
+  }
+  #first {
+    background-position: 0px 0px;
+    width:130px;
+    height:100px;
+  }
+  #second {
+    background-position: 0px -122px;
+    height:100px;
+    width: 180px;
+  }
+  #third {
+    background-position: 0px -218px;
+    height:103px;
+  }
+  #fourth {
+    background-position: 0px -320px;
+    height:90px;
+  }
+ }
+
+ @media (max-width:765px) {
+   #work .bcg {
+     height:560px;
+   }
+
+   .work-text {
+     left: calc(50% - 120px);
+   }
+   #contact .bcg{
+    height:390px;
+    padding-bottom:30px;
+    background: #ccc;
+   }
+   .about-us {
+      text-align: center;
+      font-size:19px;
+      width:350px;
+      color:black;
+      left(calc:50% - 200px);
+      top: 290px;
+      float:left;
+      position:absolute;
+    }
+ }

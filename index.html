@@ -1,0 +1,154 @@
+<!--create a single page landing page about with map location our companies contact plus companies.html#comp_1, #comp_2, etc..  -->
+<!DOCTYPE html>
+<html class="no-js" lang=""> <!--<![endif]-->
+  <head>
+      <meta charset="utf-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <title>D S Inc  | Investment Services | Irving, TX</title>
+  <meta name="description" content="grow your business through better web presence. This is accomplished via responsive web design, customer engagement and search engine optimization.">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="apple-touch-icon" href="apple-touch-icon.png">
+  <link rel="stylesheet" href="styles/bootstrap.min.css">
+  <link rel="stylesheet" href="styles/main.css">
+</head>
+<body>
+  <div id="div-wrapper">
+    <div id="header" class="bcg single-div">
+      <img style="object-fit fill"src="imgs/denali_beach.jpg" alt="beach-sky"/>
+      <h1 class="main-heading">Denali Specialized Inc.  </h1>
+      <h3 class="heading-text">investment company</h3>
+    </div>
+    <div class="navigation" style="z-index:99;">
+      <div class="links-container">
+        <ul style="list-style:none;">
+          <li class="pull-left"><a href="#"><div id="minty"></div><img class="logo" src="imgs/denali_logo.png" alt="Minty"/></a></li>
+          <li class="pull-right" style="padding-left:5px;margin-right:15px;"><a href="#contact"><h4> CONTACT </h4></a></li>
+          <li class="pull-right"><a href="#about-us"><h4> ABOUT </h4></a></li>
+        </ul>
+      </div>
+    </div>
+    <div id="idea" class="single-div">
+      <div class="bcg">
+        <div class="container-fluid row">
+         <h1 style="text-align:center;">Bring Your Idea To Life</h1>
+         <hr>
+         <p class="about-us-1">
+          Here at DSI we invest in start up companies by providing working capital and
+          business management and the tools it needs to help the start up succeed
+         </p>
+        </div>
+        <hr>
+      </div>
+    </div>
+    <div id="about" class="single-div">
+      <div class="bcg">
+        <div id="about-us"></div>
+        <div><img class="cornerimage" border="0" src="imgs/denali_slice.png" alt="">
+        <div class="col-xs-4">
+          <div class="box-1">
+            <h3 style="visibility:hidden;margin-left:15px;" class="about-us-1 mobile-only"> Here at DSI we invest in start up companies by providing working capital and business management and the tools it needs to help the start up succeed.</h3>
+            </div>
+        </div>
+        <div class=" col-xs-4">
+          <div class="box-2">
+            <h3 style="margin-right:8px;" class="about-us desktop-only"> Here at DSI we invest in start up companies by providing working capital and business management and the tools it needs to help the start up succeed. </h3>
+          </div>
+        </div>
+        <div class=" col-xs-4">
+          <div class="box-3 third">
+            <a href="#contact"><h3 class="contact-button">contact</h3></a>
+          </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="map-div" class="single-div">
+      <div class="bcg">
+        <div class="each container-fluid row">
+                  <div id="map_container">
+                  </div>
+            <div id="map"></div>
+            <script async defer
+              src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCfViZviosIqfu9sTV3xiKWNytAGzHmjr4&callback=initMap">
+          </script>
+        </div>
+        <h3 style="text-align:center;"> Our Companies </h3>
+      </div>
+    </div>
+
+
+  <div id="work" class="single-div">
+    <div class="bcg">
+      <div class="each container-fluid row">
+        <div  class="work-box col-xs-6 col-sm-3"><span id="first" class="square-icons"><p class=" work-text"><br>lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum </p></span></div>
+        <div  class="work-box col-xs-6 col-sm-3"><span id="second" class="square-icons"><p class="work-text"><br>lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum </p></span></div>
+        <div  class="work-box col-xs-6 col-sm-3"><span id="third" class="square-icons"><p class="work-text"><br>lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum </p></span></div>
+        <div  class="work-box col-xs-6 col-sm-3"><span id="fourth" class="square-icons"><p class="work-text"><br> lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum </p></span></div>
+      </div>
+     </div>
+  </div>
+  <div id="contact" class="single-div">
+      <div class="bcg">
+        <div class="each container-fluid row">
+          <div class="col-xs-6">
+            <h3> Get in touch with us </h3>
+          <form action="http://www.flipmail.co/api/34432242343Y" method="post">
+             <input class="email-input" placeholder="Name" type="text" name="name">
+             <input class="email-input" placeholder="EMAIL" type="email" name="email">
+             <textarea class="email-box" placeholder="Hello Denali..." name="message"></textarea>
+                <input type="text" name="_honey" value="" style="display:none">
+                <input type="hidden" name="_after" value="http://www.denali.minty.xyz">
+                <input type="hidden" name="_valid[email]" value="valid_email">
+                <input type="hidden" name="_valid[message]" value="min_length[10]">
+             <button class="email-btn" style="float:left;" type="submit">Submit Form</button>
+          </form>
+        </div>
+        <div class="col-xs-6">
+          <h3 class="about-us"><strong>Our Office:</strong>
+                821 Luke Street
+                Irving, TX, 75061
+                United States
+                <br>
+                <strong>Phone:</strong>
+                214-541-9651
+                <br>
+                <strong>Email:</strong>
+                paule@denalisinc.com
+          </h3>
+        </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+<script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.2.min.js"><\/script>')</script>
+<script  type="text/javascript" src="scripts/script.js"></script>
+<script>
+var myLatlng = new google.maps.LatLng(32.947919, -97.116972);
+
+map = new google.maps.Map(document.getElementById('map'), {
+  center: myLatlng,
+  zoom: 11
+
+});
+var marker = new google.maps.Marker({
+    position: myLatlng,
+    map: map,
+    icon: imagePath,
+    title: ''
+  });
+
+		var map = new google.maps.Map(document.getElementById('map'), mapOptions);
+		//Callout Content
+		var contentString = '500 N Kimball Ave #109, Southlake, TX 76092';
+		//Set window width + content
+		var infowindow = new google.maps.InfoWindow({
+			content: contentString,
+			maxWidth: 300
+		});
+</script>
+</script>
+
+</body>
+</html>
