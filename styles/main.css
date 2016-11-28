@@ -181,7 +181,7 @@ li.pull-right h4:hover{
  .work-text {
    position:relative;
    top:149px;
-   left: calc(50% - 70px);
+   left: calc(50% - 125px);
    width: 250px;
    overflow: none;
    white-space: initial;
