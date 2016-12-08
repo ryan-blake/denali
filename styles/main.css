@@ -256,6 +256,20 @@ li.pull-right h4:hover{
   color:white;
   right:30px;
 }
+
+.about-us-2 {
+  position:absolute;
+  top:39px;
+  width: 360px;
+  overflow: none;
+  white-space: initial;
+  font-weight:normal;
+  line-height: .95em;
+  text-align:left;
+  font-weight:lighter;
+  color:black;
+  right:30px;
+}
 .email-box  {
   float:left;background: #333;
   color: #ccc;
